@@ -1,0 +1,11 @@
+format: jb-book
+root: AvantPropos
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: Contenu/Cours
+- file: Contenu/FichesPedagogiques
+- file: Contenu/Demo_En_Ligne
+- file: Contenu/Programmation
+- file: Contenu/IoT_Et_Robotique
+- file: Contenu/S_informer
