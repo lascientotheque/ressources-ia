@@ -55,7 +55,7 @@
 	* Exemples de fiches pédagogiques associées:  : https://pixees.fr/classcode-v2/iai/module3/
 
 * Générateur de visage de chats: https://simoninithomas.github.io/CatDCGAN/
-* 
+
 
 	
 ## Predictions

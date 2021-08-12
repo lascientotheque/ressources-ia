@@ -96,7 +96,7 @@ Hour of code: https://code.org/hourofcode/overview (de 4 à 18 ans)
 
 Exemples de projets
 
-* https://machinelearningforkids.co.uk/?lang=fr#!/worksheets
+* https://machinelearningforkids.co.uk/?lang=fr#!/worksheets (puis cliquez sur 'Plan de travail')
 
 Présentation des possibilités (en anglais): https://www.youtube.com/watch?v=h2KqwwfKOuY
 
