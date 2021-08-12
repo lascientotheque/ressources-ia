@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4. Programmation &#8212; Carnet de ressources pédagogique sur l&#39;intelligence artificielle pour les jeunes publics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/book.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/jtag_0.js"></script>
+    <script src="../_static/jtag_1.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/Robot.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="5. IoT et robotique" href="IoT_Et_Robotique.html" />
+    <link rel="prev" title="3. Outils interactifs" href="Demo_En_Ligne.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/Robot.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Carnet de ressources pédagogique sur l'intelligence artificielle pour les jeunes publics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../AvantPropos.html">
+   Aperçu
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Cours.html">
+   1. Cours
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="FichesPedagogiques.html">
+   2. Fiches pédagogiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Demo_En_Ligne.html">
+   3. Outils interactifs
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   4. Programmation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="IoT_Et_Robotique.html">
+   5. IoT et robotique
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S_informer.html">
+   6. S’informer
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Contenu/Programmation.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lascientotheque/ressources-ia"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lascientotheque/ressources-ia/issues/new?title=Issue%20on%20page%20%2FContenu/Programmation.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/lascientotheque/ressources-ia/edit/main/Contenu/Programmation.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#scratch">
+   4.1. Scratch
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-club-kids-code-jeunesse">
+   4.2. Code club - Kids Code Jeunesse
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code">
+   4.3. CODE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#machine-learning-for-kids">
+   4.4. Machine learning for kids
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#algoblocs">
+   4.5. Algoblocs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#en-anglais">
+   4.6. En anglais
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#p5js">
+     4.6.1. P5JS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#app-inventor">
+     4.6.2. App Inventor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#python-et-apprentissage-machine">
+     4.6.3. Python et apprentissage machine
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="programmation">
+<h1><span class="section-number">4. </span>Programmation<a class="headerlink" href="#programmation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="scratch">
+<h2><span class="section-number">4.1. </span>Scratch<a class="headerlink" href="#scratch" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://scratch.mit.edu/">https://scratch.mit.edu/</a> (Sélectionner le français en bas de la page)</p></li>
+</ul>
+<blockquote>
+<div><p>Avec Scratch, vous pouvez programmer vos propres histoires interactives, jeux et animations - et partager vos créations avec d’autres dans la communauté en ligne.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Scratch aide les jeunes à apprendre à penser de façon créative, à raisonner systématiquement et à travailler de manière collaborative — des compétences essentielles pour vivre au 21e siècle.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Scratch a été conçu, est développé et est géré par la Fondation Scratch, une organisation à but non lucratif. Scratch est disponible gratuitement.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Licence: BSD 3.0, CC SA 2.0</p></li>
+<li><p>Langue: Français, et beaucoup d’autres</p></li>
+<li><p>Format: Tutoriels interactifs en ligne, cartes de programmation, guides pour éducateurs</p></li>
+<li><p>Public: 4 ans et +</p></li>
+<li><p>Mots-clefs: Programmation par blocs, algorithmes, IoT, IA. Très complet. 79 millions de projets.</p></li>
+</ul>
+<p>Extensions incluant des blocs pour l’apprentissage machine et IoT:</p>
+<ul class="simple">
+<li><p>TM2Scratch: <a class="reference external" href="https://stretch3.github.io/">https://stretch3.github.io/</a>. Connecter la Teachable Machine de Google à Scratch.  Aussi ML2Scratch pour entrainer des modèles.</p></li>
+<li><p>MIT AI blocks. <a class="reference external" href="https://www.media.mit.edu/posts/ai-blocks/">https://www.media.mit.edu/posts/ai-blocks/</a>. Détection des mains, du corps, des visages. <a class="reference external" href="https://mitmedialab.github.io/prg-extension-boilerplate/create/">https://mitmedialab.github.io/prg-extension-boilerplate/create/</a>. Aussi ML training avec TM</p></li>
+<li><p>MIT Cognimates. <a class="reference external" href="https://codelab.cognimates.me/">https://codelab.cognimates.me/</a>. Détection de sentiments, apprentissage automatique, catégorisation d’image, IoT</p></li>
+<li><p><a class="reference external" href="https://adacraft.org/">https://adacraft.org/</a>. Exemples d’utilisation:</p>
+<ul>
+<li><p><a class="reference external" href="http://ressources.magicmakers.fr/ressources-ia-mini-kid-process-entrainer-une-ia/">http://ressources.magicmakers.fr/ressources-ia-mini-kid-process-entrainer-une-ia/</a></p></li>
+<li><p><a class="reference external" href="https://adacraft.org/studio/?project=debb83fa">https://adacraft.org/studio/?project=debb83fa</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://education.makeblock.com/">https://education.makeblock.com/</a> (en anglais). Extension de scratch pour IA et IoT. <a class="reference external" href="https://ide.makeblock.com/">https://ide.makeblock.com/</a>. Exemples d’utilisation:</p>
+<ul>
+<li><p><a class="reference external" href="https://ide.mblock.cc/#/?cloudProjectId=234478">https://ide.mblock.cc/#/?cloudProjectId=234478</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/e/2PACX-1vRE4nRdvJ9cuFh2s8PeG3MnfBF1SgM-cnbPVoIc1IlpX6JNMzCS36BuF55OIngae02Qsd7cZvn3QGi5/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.gb03ae546ea_0_842">https://docs.google.com/presentation/d/e/2PACX-1vRE4nRdvJ9cuFh2s8PeG3MnfBF1SgM-cnbPVoIc1IlpX6JNMzCS36BuF55OIngae02Qsd7cZvn3QGi5/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.gb03ae546ea_0_842</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://machinelearningforkids.co.uk/scratch3/">https://machinelearningforkids.co.uk/scratch3/</a>. Voir plus bas pour la section dédiée.</p></li>
+</ul>
+</div>
+<div class="section" id="code-club-kids-code-jeunesse">
+<h2><span class="section-number">4.2. </span>Code club - Kids Code Jeunesse<a class="headerlink" href="#code-club-kids-code-jeunesse" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Site: <a class="reference external" href="https://codeclub.ca/fr/projets.html">https://codeclub.ca/fr/projets.html</a></p></li>
+</ul>
+<blockquote>
+<div><p>Les projets Code Club sont des guides étape par étape pour les enfants qui leur permettent de créer des animations, des jeux, des sites Web et bien plus encore. Code Club Canada est un projet collaboratif avec Kids Code Jeunesse, une association nationale à but non lucratif basée à Montréal.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Code Club International a présentement plus de 10 000 clubs dans plus de 100 pays et nos projets de club ont étés traduits en 28 langues.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Nos projets sont des guides simples et détaillés qui aident les enfants à apprendre le fonctionnement de Scratch, HTML &amp; CSS et Python en créant des jeux, des animations et des sites Internet. Les projets introduisent graduellement les concepts de codage pour permettre aux enfants de développer leur connaissances étape par étape, l’adulte dirigeant la session n’a donc pas besoin d’être un expert en informatique.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Code Club, fondé en 2012, s’est joint en 2015 à La Fondation Raspberry Pi, un organisme à but non-lucratif enregistré du Royaume-Uni. Code Club est un programme éducatif essentiel pour la Fondation puisqu’elle aide énormément de jeunes à apprendre comment développer leurs idées par l’entremise du codage.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Licence: CodeClub</p></li>
+<li><p>Langue: Français, anglais</p></li>
+<li><p>Format: Tutoriels en ligne. Très détaillé.</p></li>
+<li><p>Public: 8-12 ans</p></li>
+<li><p>Mots-clefs: Scratch, HTML/CSS, Python, RaspBerry Pi, Sense Hat, Sonic Pi, micro:bit</p></li>
+<li><p>Grille de compétences associées aux différents projets: <a class="reference external" href="https://codeclub.ca/fr/skillmap.html">https://codeclub.ca/fr/skillmap.html</a></p></li>
+</ul>
+</div>
+<div class="section" id="code">
+<h2><span class="section-number">4.3. </span>CODE<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><a class="reference external" href="http://Code.org">Code.org</a> est un organisme sans but lucratif dédié à accroître l’accès à l’informatique dans les écoles et augmenter la participation des femmes et des minorités peu représentées. Notre vision est que chaque étudiant dans toutes les écoles ait l’opportunité d’étudier l’informatique, comme c’est le cas pour la biologie, la chimie ou les mathématiques. Nous offrons le programme le plus largement utilisé pour l’enseignement de l’informatique à l’école primaire et secondaire et organisons également la campagne annuelle Hour of Code, qui a impliqué 10% de tous les étudiants dans le monde. <a class="reference external" href="http://Code.org">Code.org</a> est soutenu par des donneurs généreux comme Amazon, Facebook, Google, la Fondation Infosys, Microsoft, et beaucoup d’autres.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="https://curriculum.code.org/hoc/plugged/9/#ai-for-oceans4">https://curriculum.code.org/hoc/plugged/9/#ai-for-oceans4</a></p></li>
+<li><p>Licence: Code</p></li>
+<li><p>Langue: Français, anglais. Participatif pour aider à la traduction.</p></li>
+<li><p>Format: Tutoriels interactifs en ligne</p></li>
+<li><p>Public: 4-18 ans</p></li>
+<li><p>Mots-clefs: Connecté/Débranché, programmation par blocs, Python, JavaScript, CSS, C, C++, Lua</p></li>
+</ul>
+<p>Cours: <a class="reference external" href="https://studio.code.org/courses">https://studio.code.org/courses</a></p>
+<ul class="simple">
+<li><p>Leçons en mode déconnectés (4 ans et +)</p></li>
+<li><p>Pré-lecteurs: 4 à 8 ans</p></li>
+<li><p>Cours rapide: 9 à 18 ans</p></li>
+</ul>
+<p>Hour of code: <a class="reference external" href="https://code.org/hourofcode/overview">https://code.org/hourofcode/overview</a> (de 4 à 18 ans)</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://hourofcode.com/us/fr/learn">https://hourofcode.com/us/fr/learn</a></p></li>
+<li><p>IA pour les océans: <a class="reference external" href="https://studio.code.org/s/oceans/lessons/1/levels/1">https://studio.code.org/s/oceans/lessons/1/levels/1</a></p></li>
+<li><p><a class="reference external" href="https://code.org/minecraft">https://code.org/minecraft</a></p></li>
+</ul>
+</div>
+<div class="section" id="machine-learning-for-kids">
+<h2><span class="section-number">4.4. </span>Machine learning for kids<a class="headerlink" href="#machine-learning-for-kids" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Site: <a class="reference external" href="https://machinelearningforkids.co.uk/?lang=fr#%21/about">https://machinelearningforkids.co.uk/?lang=fr#!/about</a></p></li>
+</ul>
+<blockquote>
+<div><p>Cet outil présente l’apprentissage machine (machine learning) en fournissant des expériences pratiques pour entrainer les systèmes d’apprentissage machine et construire des réalisations avec eux.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Il fournit un environnement guidé, facile à utiliser pour entraîner des modèles d’apprentissage machine pour classer du texte, des nombres ou reconnaître des images ou des sons.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Ce projet s’appuie sur les efforts existants pour introduire et enseigner le codage et l’intelligence artificielle aux enfants, en ajoutant ces modèles à Scratch (une plate-forme de codage pédagogique largement utilisée), permettant aux enfants de créer des projets et de construire des jeux avec les modèles d’apprentissage machine qu’ils ont entraîné.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Licence: ?</p></li>
+<li><p>Langue: 28 langues, dont français, anglais</p></li>
+<li><p>Public: 6-18 ans</p></li>
+<li><p>Mots-clefs: Scratch, apprentisage automatique, arbre de decision, analyse de sentiments, apprentissage supervisé, classification d’images, biométrique</p></li>
+</ul>
+<p>Exemples de projets</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://machinelearningforkids.co.uk/?lang=fr#%21/worksheets">https://machinelearningforkids.co.uk/?lang=fr#!/worksheets</a></p></li>
+</ul>
+<p>Présentation des possibilités (en anglais): <a class="reference external" href="https://www.youtube.com/watch?v=h2KqwwfKOuY">https://www.youtube.com/watch?v=h2KqwwfKOuY</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ibm.org/activities/machine-learning-for-kids">https://www.ibm.org/activities/machine-learning-for-kids</a> (Sélectionner le français en bas de page)</p></li>
+<li><p><a class="reference external" href="https://ibm.ent.box.com/v/MachineLearningforKids/file/268394460526">https://ibm.ent.box.com/v/MachineLearningforKids/file/268394460526</a></p></li>
+<li><p><a class="reference external" href="https://ibm.ent.box.com/v/MachineLearningforKids/file/257961989354">https://ibm.ent.box.com/v/MachineLearningforKids/file/257961989354</a></p></li>
+</ul>
+</div>
+<div class="section" id="algoblocs">
+<h2><span class="section-number">4.5. </span>Algoblocs<a class="headerlink" href="#algoblocs" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.algoblocs.fr/">https://www.algoblocs.fr/</a></p></li>
+</ul>
+<blockquote>
+<div><p>Algoblocs permet de s’initier à la programmation avec des blocs à emboîter. Les blocs sont transformés en code informatique et exécutés pour créer un dessin géométrique. AlgoBlocs est une création de Charly Piva, professeur agrégé de mathématiques.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Licence: ?</p></li>
+<li><p>Langue: Français</p></li>
+<li><p>Public: A partir de 6 ans</p></li>
+<li><p>Mots-clefs: Programmation par blocs, algorithmes, dessin</p></li>
+</ul>
+</div>
+<div class="section" id="en-anglais">
+<h2><span class="section-number">4.6. </span>En anglais<a class="headerlink" href="#en-anglais" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="p5js">
+<h3><span class="section-number">4.6.1. </span>P5JS<a class="headerlink" href="#p5js" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ml5js.org/about/">https://ml5js.org/about/</a></p></li>
+</ul>
+<blockquote>
+<div><p>Welcome to the ml5 project! Developing ml5 is not just about developing machine learning software, it is about making machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.</p>
+</div></blockquote>
+<p>Programmation IA et IoT avec JavaScript. Intéressant car peut utiliser les modèles générés par la Google Teachable machine, et permet de faire des applications interactives dans le browser. Aussi, plusieurs exemples pour créer et entrainer des réseaux de nuerones.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://learn.ml5js.org/#/reference/neural-network?id=examples">https://learn.ml5js.org/#/reference/neural-network?id=examples</a></p></li>
+</ul>
+</div>
+<div class="section" id="app-inventor">
+<h3><span class="section-number">4.6.2. </span>App Inventor<a class="headerlink" href="#app-inventor" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://appinventor.mit.edu/">http://appinventor.mit.edu/</a></p></li>
+</ul>
+<blockquote>
+<div><p>MIT App Inventor is an intuitive, visual programming environment that allows everyone – even children – to build fully functional apps for Android and iOS smartphones and tablets. Those new to MIT App Inventor can have a simple first app up and running in less than 30 minutes. And what’s more, our blocks-based tool facilitates the creation of complex, high-impact apps in significantly less time than traditional programming environments. The MIT App Inventor project seeks to democratize software development by empowering all people, especially young people, to move from technology consumption to technology creation.</p>
+</div></blockquote>
+<p>Permet de créer des applications smartphone en programmation par blocs.</p>
+</div>
+<div class="section" id="python-et-apprentissage-machine">
+<h3><span class="section-number">4.6.3. </span>Python et apprentissage machine<a class="headerlink" href="#python-et-apprentissage-machine" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.raspberrypi.org/en/pathways/machine-vision">https://projects.raspberrypi.org/en/pathways/machine-vision</a></p></li>
+</ul>
+<blockquote>
+<div><p>Learn how to train your computer to recognise objects in images with our machine vision pathway.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Contenu"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Demo_En_Ligne.html" title="previous page"><span class="section-number">3. </span>Outils interactifs</a>
+    <a class='right-next' id="next-link" href="IoT_Et_Robotique.html" title="next page"><span class="section-number">5. </span>IoT et robotique</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By <a href="https://www.lascientotheque.be/">La Scientothèque</a>, 2021.<br/>
+        
+          <div class="extra_footer">
+            <p>
+License: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

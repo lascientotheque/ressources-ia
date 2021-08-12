@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. IoT et robotique &#8212; Carnet de ressources pédagogique sur l&#39;intelligence artificielle pour les jeunes publics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/book.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/jtag_0.js"></script>
+    <script src="../_static/jtag_1.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/Robot.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="6. S’informer" href="S_informer.html" />
+    <link rel="prev" title="4. Programmation" href="Programmation.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/Robot.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Carnet de ressources pédagogique sur l'intelligence artificielle pour les jeunes publics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../AvantPropos.html">
+   Aperçu
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Cours.html">
+   1. Cours
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="FichesPedagogiques.html">
+   2. Fiches pédagogiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Demo_En_Ligne.html">
+   3. Outils interactifs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Programmation.html">
+   4. Programmation
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   5. IoT et robotique
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S_informer.html">
+   6. S’informer
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Contenu/IoT_Et_Robotique.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lascientotheque/ressources-ia"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lascientotheque/ressources-ia/issues/new?title=Issue%20on%20page%20%2FContenu/IoT_Et_Robotique.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/lascientotheque/ressources-ia/edit/main/Contenu/IoT_Et_Robotique.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#arduino">
+   5.1. Arduino
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#raspberry-pi">
+   5.2. Raspberry Pi
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cartes-micropython">
+   5.3. Cartes MicroPython
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#micro-bit">
+   5.4. Micro:bit
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sensehat">
+   5.5. SenseHat
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sonicpi">
+   5.6. SonicPi
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#thymio">
+   5.7. Thymio
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#autres-robots-mobiles">
+   5.8. Autres robots mobiles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cours">
+   5.9. Cours
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#en-anglais">
+   5.10. En anglais
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="iot-et-robotique">
+<h1><span class="section-number">5. </span>IoT et robotique<a class="headerlink" href="#iot-et-robotique" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="arduino">
+<h2><span class="section-number">5.1. </span>Arduino<a class="headerlink" href="#arduino" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.arduino-france.com/">https://www.arduino-france.com/</a></p></li>
+<li><p><a class="reference external" href="https://www.arduino.cc/">https://www.arduino.cc/</a></p></li>
+</ul>
+</div>
+<div class="section" id="raspberry-pi">
+<h2><span class="section-number">5.2. </span>Raspberry Pi<a class="headerlink" href="#raspberry-pi" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Le Raspberry Pi est un petit ordinateur performant qui peut être utilisé pour des projets électroniques, et pour beaucoup de choses que fait votre PC de bureau.</p>
+</div></blockquote>
+<p>Exemples d’activités:</p>
+<ul class="simple">
+<li><p>CodeClub: <a class="reference external" href="https://projects.raspberrypi.org/fr-FR/codeclub/raspberry-pi">https://projects.raspberrypi.org/fr-FR/codeclub/raspberry-pi</a>. 9-13 ans</p></li>
+</ul>
+</div>
+<div class="section" id="cartes-micropython">
+<h2><span class="section-number">5.3. </span>Cartes MicroPython<a class="headerlink" href="#cartes-micropython" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://micropython.fr/03.cartes_micropython/00.start/">https://micropython.fr/03.cartes_micropython/00.start/</a></p></li>
+</ul>
+</div>
+<div class="section" id="micro-bit">
+<h2><span class="section-number">5.4. </span>Micro:bit<a class="headerlink" href="#micro-bit" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Le micro:bit de la BBC est un ordinateur de poche, codable, qui te permet d’être créatif.</p>
+</div></blockquote>
+<p>Exemples d’activités:</p>
+<ul class="simple">
+<li><p>CodeClub: <a class="reference external" href="https://projects.raspberrypi.org/fr-FR/codeclub/microbit">https://projects.raspberrypi.org/fr-FR/codeclub/microbit</a>. 9-13 ans</p></li>
+<li><p><a class="reference external" href="https://school-it.info.unamur.be/les-activites/decouverte-dun-systeme-tangible/">https://school-it.info.unamur.be/les-activites/decouverte-dun-systeme-tangible/</a></p></li>
+<li><p><a class="reference external" href="https://school-it.info.unamur.be/les-activites/la-communication-entre-microbit/">https://school-it.info.unamur.be/les-activites/la-communication-entre-microbit/</a></p></li>
+<li><p><a class="reference external" href="https://school-it.info.unamur.be/les-activites/intelligence-artificielle/">https://school-it.info.unamur.be/les-activites/intelligence-artificielle/</a> - Activité 2</p></li>
+</ul>
+</div>
+<div class="section" id="sensehat">
+<h2><span class="section-number">5.5. </span>SenseHat<a class="headerlink" href="#sensehat" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Le Sense HAT est une carte électronique additionnelle pour le Raspberry Pi, qui comprend des LEDs, un joystick et de nombreux capteurs.</p>
+</div></blockquote>
+<p>Exemples d’activités:</p>
+<ul class="simple">
+<li><p>CodeClub: <a class="reference external" href="https://projects.raspberrypi.org/fr-FR/codeclub/sense-hat">https://projects.raspberrypi.org/fr-FR/codeclub/sense-hat</a>. 9-13 ans</p></li>
+</ul>
+</div>
+<div class="section" id="sonicpi">
+<h2><span class="section-number">5.6. </span>SonicPi<a class="headerlink" href="#sonicpi" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Le Sonic Pi est un nouveau type d’instrument de musique, conçu pour créer des sons avec du code.</p>
+</div></blockquote>
+<p>Exemples d’activités:</p>
+<ul class="simple">
+<li><p>CodeClub: <a class="reference external" href="https://projects.raspberrypi.org/fr-FR/codeclub/sonic-pi">https://projects.raspberrypi.org/fr-FR/codeclub/sonic-pi</a>. 9-13 ans</p></li>
+</ul>
+</div>
+<div class="section" id="thymio">
+<h2><span class="section-number">5.7. </span>Thymio<a class="headerlink" href="#thymio" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.thymio.org/fr/">https://www.thymio.org/fr/</a></p></li>
+</ul>
+<blockquote>
+<div><p>Thymio est un robot programmable open source idéal pour accompagner l’enseignant dans l’ère de l’éducation numérique. Thymio a été lancé par le groupe MOBOTS à l’EPFL avec l’aide de partenaires et est commercialisé par MOBSYA, une association à but non lucratif, à Renens, en Suisse.</p>
+</div></blockquote>
+<p>Exemples d’activités:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://school-it.info.unamur.be/les-activites/intelligence-artificielle/">https://school-it.info.unamur.be/les-activites/intelligence-artificielle/</a> - Activité 4</p></li>
+<li><p>Cours: <a class="reference external" href="https://www.roteco.ch/fr/courses/post/canope-la-programmation-creative-programmation-visuelle-dun-robot/">https://www.roteco.ch/fr/courses/post/canope-la-programmation-creative-programmation-visuelle-dun-robot/</a></p></li>
+</ul>
+</div>
+<div class="section" id="autres-robots-mobiles">
+<h2><span class="section-number">5.8. </span>Autres robots mobiles<a class="headerlink" href="#autres-robots-mobiles" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>mBot:</p>
+<ul>
+<li><p><a class="reference external" href="https://store.makeblock.com/products/diy-coding-robot-kits-mbot">https://store.makeblock.com/products/diy-coding-robot-kits-mbot</a>.</p></li>
+<li><p><a class="reference external" href="https://store.makeblock.com/products/diy-coding-robot-kits-mbot-neo">https://store.makeblock.com/products/diy-coding-robot-kits-mbot-neo</a>.</p></li>
+</ul>
+</li>
+<li><p>AlphAI: <a class="reference external" href="https://learningrobots.ai/">https://learningrobots.ai/</a></p></li>
+<li><p>Cozmo/Vector: <a class="reference external" href="https://calypso.software/">https://calypso.software/</a></p></li>
+<li><p>DIY Robocars: <a class="reference external" href="https://diyrobocars.com/">https://diyrobocars.com/</a></p></li>
+<li><p>Gomer: <a class="reference external" href="https://www.easytis.com/fr/gli/2502-gomer.html">https://www.easytis.com/fr/gli/2502-gomer.html</a></p></li>
+<li><p>JetBot: <a class="reference external" href="https://jetbot.org/master/">https://jetbot.org/master/</a></p></li>
+<li><p>CogLabs: <a class="reference external" href="https://www.trezorium.com/wip_coglabs/index.html">https://www.trezorium.com/wip_coglabs/index.html</a></p></li>
+<li><p><a class="reference external" href="https://www.educabot.fr/">https://www.educabot.fr/</a></p></li>
+<li><p>Blue-bot: <a class="reference external" href="https://www.commonsense.org/education/app/blue-bot">https://www.commonsense.org/education/app/blue-bot</a></p></li>
+<li><p>ozobot: <a class="reference external" href="https://ozobot.com/">https://ozobot.com/</a></p></li>
+</ul>
+</div>
+<div class="section" id="cours">
+<h2><span class="section-number">5.9. </span>Cours<a class="headerlink" href="#cours" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.roteco.ch/fr/cours/?language=fr">https://www.roteco.ch/fr/cours/?language=fr</a></p></li>
+</ul>
+</div>
+<div class="section" id="en-anglais">
+<h2><span class="section-number">5.10. </span>En anglais<a class="headerlink" href="#en-anglais" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.instructables.com/circuits/projects/">https://www.instructables.com/circuits/projects/</a></p></li>
+<li><p><a class="reference external" href="http://learn.makeblock.com/en/">http://learn.makeblock.com/en/</a></p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Contenu"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Programmation.html" title="previous page"><span class="section-number">4. </span>Programmation</a>
+    <a class='right-next' id="next-link" href="S_informer.html" title="next page"><span class="section-number">6. </span>S’informer</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By <a href="https://www.lascientotheque.be/">La Scientothèque</a>, 2021.<br/>
+        
+          <div class="extra_footer">
+            <p>
+License: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

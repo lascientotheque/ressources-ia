@@ -1,0 +1,557 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Cours &#8212; Carnet de ressources pédagogique sur l&#39;intelligence artificielle pour les jeunes publics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/book.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/jtag_0.js"></script>
+    <script src="../_static/jtag_1.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/Robot.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="2. Fiches pédagogiques" href="FichesPedagogiques.html" />
+    <link rel="prev" title="Aperçu" href="../AvantPropos.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/Robot.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Carnet de ressources pédagogique sur l'intelligence artificielle pour les jeunes publics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../AvantPropos.html">
+   Aperçu
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Cours
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="FichesPedagogiques.html">
+   2. Fiches pédagogiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Demo_En_Ligne.html">
+   3. Outils interactifs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Programmation.html">
+   4. Programmation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="IoT_Et_Robotique.html">
+   5. IoT et robotique
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S_informer.html">
+   6. S’informer
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Contenu/Cours.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lascientotheque/ressources-ia"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lascientotheque/ressources-ia/issues/new?title=Issue%20on%20page%20%2FContenu/Cours.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/lascientotheque/ressources-ia/edit/main/Contenu/Cours.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#l-intelligence-artificielle-avec-intelligence">
+   1.1. L’Intelligence Artificielle… avec intelligence !
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elements-of-ai">
+   1.2. Elements of AI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lintelligence-artificielle-pour-tous">
+   1.3. L’Intelligence Artificielle pour TOUS !
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#that-s-ai">
+   1.4. That’s AI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#premiers-cris">
+   1.5. Premiers cris
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#objectif-ia">
+   1.6. Objectif IA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#intelligence-artificielle">
+   1.7. Intelligence artificielle
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#intelligence-artificielle-et-apprentissage-automatique">
+   1.8. Intelligence artificielle et apprentissage automatique
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#initiation-au-vocabulaire-de-lia">
+   1.9. Initiation au vocabulaire de l’IA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#le-cours-sur-l-ia">
+   1.10. Le cours sur l’IA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#en-anglais">
+   1.11. En anglais
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="cours">
+<h1><span class="section-number">1. </span>Cours<a class="headerlink" href="#cours" title="Permalink to this headline">¶</a></h1>
+<p>Critères de sélection:</p>
+<ul class="simple">
+<li><p>Accessible aux élèves, enseignants, et/ou grand public</p></li>
+<li><p>Français</p></li>
+</ul>
+<div class="section" id="l-intelligence-artificielle-avec-intelligence">
+<span id="cours-ia-funmooc"></span><h2><span class="section-number">1.1. </span>L’Intelligence Artificielle… avec intelligence !<a class="headerlink" href="#l-intelligence-artificielle-avec-intelligence" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-avec-intelligence/">https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-avec-intelligence/</a></p></li>
+</ul>
+<blockquote>
+<div><p>Class’Code IAI est un MOOC citoyen accessible à toutes et à tous de 7 à 107 ans pour se questionner, expérimenter et comprendre ce qu’est l’Intelligence Artificielle… avec intelligence !</p>
+<p>La formation s’adresse à toutes et tous et plus spécifiquement :</p>
+<ul class="simple">
+<li><p>les professionnels de l’éducation (enseignants, éducateurs, animateurs)</p></li>
+<li><p>jeunes de 7 à 17 ans via les ressources qui y sont présentées</p></li>
+<li><p>les citoyen.nes qui veulent comprendre de quoi on parle pour contribuer au débat</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: Class’Code/Inria (France)</p></li>
+<li><p>Audience: 7 à 107 ans</p></li>
+<li><p>Format: Vidéos, fiches pédagogiques, expériences interactives, forums, quizz</p></li>
+<li><p>Durée: 10h</p></li>
+</ul>
+<p>Liens complémentaires:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lemonde.fr/blog/binaire/2021/01/26/formation-a-lia-episode-3-classcode-iai/">https://www.lemonde.fr/blog/binaire/2021/01/26/formation-a-lia-episode-3-classcode-iai/</a></p></li>
+<li><p><a class="reference external" href="https://project.inria.fr/classcode/classcode-un-exemple-de-projet-interservices-pour-inria/">https://project.inria.fr/classcode/classcode-un-exemple-de-projet-interservices-pour-inria/</a></p></li>
+</ul>
+</div>
+<div class="section" id="elements-of-ai">
+<span id="cours-elements-of-ai"></span><h2><span class="section-number">1.2. </span>Elements of AI<a class="headerlink" href="#elements-of-ai" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.elementsofai.com">https://www.elementsofai.com</a>, <a class="reference external" href="https://course.elementsofai.com/">https://course.elementsofai.com/</a></p></li>
+</ul>
+<blockquote>
+<div><p>“Elements of AI” sont une série de cours en ligne gratuits créés par Reaktor et l’Université d’Helsinki. Nous souhaitons encourager un groupe de personnes aussi large que possible à apprendre ce que signifie l’IA, ce qui peut (et ne peut pas) être fait avec l’IA, et comment commencer à créer des méthodes d’IA. Les cours combinent théorie et exercices pratiques et peuvent être complétés à votre propre rythme.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2019</p></li>
+<li><p>Production: Université d’Helsinki, Reaktor (Finlande)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Texte, quizz</p></li>
+<li><p>Durée: Non spécifié. Probablement 15h.</p></li>
+</ul>
+<p>Liens complémentaires:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://buildingai.elementsofai.com/">https://buildingai.elementsofai.com/</a> (anglais)</p></li>
+<li><p><a class="reference external" href="https://www.lemonde.fr/blog/binaire/2021/01/12/formation-a-lia-episode-1-elements-of-ai/">https://www.lemonde.fr/blog/binaire/2021/01/12/formation-a-lia-episode-1-elements-of-ai/</a></p></li>
+</ul>
+</div>
+<div class="section" id="lintelligence-artificielle-pour-tous">
+<h2><span class="section-number">1.3. </span>L’Intelligence Artificielle pour TOUS !<a class="headerlink" href="#lintelligence-artificielle-pour-tous" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-pour-les-managers-et-leurs-equipes/">https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-pour-les-managers-et-leurs-equipes/</a></p></li>
+</ul>
+<blockquote>
+<div><p>Ce cours, est un mode d’emploi pour comprendre simplement ce qu’est l’IA (Intelligence Artificielle), pour participer à des projets IA, transformer sa façon de travailler et créer de la valeur ajoutée quel que soit votre métier.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Ce MOOC est pour tous et particulièrement pour les non-experts en data science</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: CNAM, Hesam université (France)</p></li>
+<li><p>Audience: Grand public, plus particulièrement dans le domaine du management</p></li>
+<li><p>Format: Vidéos, interviews avec des experts</p></li>
+<li><p>Durée: 10h</p></li>
+</ul>
+</div>
+<div class="section" id="that-s-ai">
+<h2><span class="section-number">1.4. </span>That’s AI<a class="headerlink" href="#that-s-ai" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.thats-ai.org/fr-CH">https://www.thats-ai.org/fr-CH</a></p></li>
+</ul>
+<blockquote>
+<div><p>Le parcours découverte “That’s AI” est une ressource en ligne gratuite conçue par l’EPFL Extension School:</p>
+</div></blockquote>
+<blockquote>
+<div><p>L’objectif de cette plateforme est d’enseigner à chacun de façon simple les bases de l’intelligence artificielle (IA) et d’aider à comprendre comment les technologies IA s’appliquent à notre vie quotidienne et à notre travail.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: EPFL Extension School (Suisse)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Texte</p></li>
+<li><p>Durée: 3h</p></li>
+</ul>
+</div>
+<div class="section" id="premiers-cris">
+<span id="cours-premiers-cris"></span><h2><span class="section-number">1.5. </span>Premiers cris<a class="headerlink" href="#premiers-cris" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.premierscris.cri-paris.net/mooc">https://www.premierscris.cri-paris.net/mooc</a></p></li>
+</ul>
+<blockquote>
+<div><p>Dans une démarche interdisciplinaire, ce MOOC réunit de nombreux acteurs et actrices de la petite enfance (chercheur•e•s, professionnelles de petite enfance, designers et entrepreneur•e•s, décideur.se.s politiques, etc).</p>
+</div></blockquote>
+<blockquote>
+<div><p>En cinq épisodes, ce MOOC questionne la relation du jeune enfant (0 à 6 ans) à la culture numérique et encourage l’éveil à l’esprit critique, autour d’un sujet encore en pleine exploration.</p>
+</div></blockquote>
+<p>Trailer: <a class="reference external" href="https://www.youtube.com/watch?v=UHgpigmjNy8">https://www.youtube.com/watch?v=UHgpigmjNy8</a></p>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: CRI (France)</p></li>
+<li><p>Audience: Grand public, acteurs et actrices de la petite enfance</p></li>
+<li><p>Format: Vidéos</p></li>
+<li><p>Durée: 2h30 (5 épisodes d’environ 30 minutes)</p></li>
+</ul>
+</div>
+<div class="section" id="objectif-ia">
+<h2><span class="section-number">1.6. </span>Objectif IA<a class="headerlink" href="#objectif-ia" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://openclassrooms.com/fr/courses/6417031-objectif-ia-initiez-vous-a-lintelligence-artificielle">https://openclassrooms.com/fr/courses/6417031-objectif-ia-initiez-vous-a-lintelligence-artificielle</a></p></li>
+</ul>
+<blockquote>
+<div><p>Ce cours s’adresse à tous les citoyens qui s’interrogent sur l’intelligence artificielle, souhaitent s’informer et s’instruire. Aucun prérequis n’est nécessaire</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: Institut Montaigne, Fondation Abeona (France)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Textes, vidéos, quizz</p></li>
+<li><p>Durée: 6h</p></li>
+</ul>
+<p>Liens complémentaires:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lemonde.fr/blog/binaire/2021/01/19/formation-a-lia-episode-2-objectif-ia/">https://www.lemonde.fr/blog/binaire/2021/01/19/formation-a-lia-episode-2-objectif-ia/</a></p></li>
+</ul>
+</div>
+<div class="section" id="intelligence-artificielle">
+<h2><span class="section-number">1.7. </span>Intelligence artificielle<a class="headerlink" href="#intelligence-artificielle" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://moocdigital.paris/cours/intelligence-artificielle">https://moocdigital.paris/cours/intelligence-artificielle</a></p></li>
+</ul>
+<blockquote>
+<div><p>Ce MOOC (Massive Online Open Course) est un outil accessible à toutes et à tous pour mieux comprendre les pratiques et usages du numérique qui modifient nos comportements au quotidien.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Auteur de L’intelligence artificielle : vers une domination programmée ?, le cours est proposé par Jean-Gabriel Ganascia, professeur d’informatique à l’université Pierre et Marie Curie et directeur adjoint du laboratoire (Labex) OBVIL.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2017</p></li>
+<li><p>Production: MOOC Digital Paris (France)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Vidéos du chercheur sous forme d’interview</p></li>
+<li><p>Durée: 1h30 (6 vidéos de +/- 15 minutes)</p></li>
+</ul>
+</div>
+<div class="section" id="intelligence-artificielle-et-apprentissage-automatique">
+<h2><span class="section-number">1.8. </span>Intelligence artificielle et apprentissage automatique<a class="headerlink" href="#intelligence-artificielle-et-apprentissage-automatique" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLtzmb84AoqRTl0m1b82gVLcGU38miqdrC">https://www.youtube.com/playlist?list=PLtzmb84AoqRTl0m1b82gVLcGU38miqdrC</a></p></li>
+</ul>
+<blockquote>
+<div><p>54 vidéos de 20-30 minutes couvrant les sujets de bases et des sujets avancés</p>
+</div></blockquote>
+<blockquote>
+<div><p>Je m’appelle Lê Nguyên Hoang (appelez-moi Lê), et j’adore les maths, la physique et les sciences en général. Science4All est ma chaîne francophone.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Cette série explore les fondements théoriques de l’intelligence artificielle et du machine learning.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: Dernière màj en 2020</p></li>
+<li><p>Production: Science4all (France)</p></li>
+<li><p>Audience: Grand public/Public avec background scientifique</p></li>
+<li><p>Format: Vidéos</p></li>
+</ul>
+</div>
+<div class="section" id="initiation-au-vocabulaire-de-lia">
+<h2><span class="section-number">1.9. </span>Initiation au vocabulaire de l’IA<a class="headerlink" href="#initiation-au-vocabulaire-de-lia" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.teluq.ca/site/etudes/clom/initiation-vocabulaire-ia.php">https://www.teluq.ca/site/etudes/clom/initiation-vocabulaire-ia.php</a></p></li>
+</ul>
+<blockquote>
+<div><p>De plus en plus, l’intelligence artificielle occupe une place grandissante dans notre quotidien : que ce soit dans les communications, le travail, les transports, l’éducation, la santé ou même les loisirs. Elle est pratiquement partout et suscite un intérêt mondial.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Ce cours vous permettra d’accroître vos connaissances en français sur le vocabulaire de l’intelligence artificielle (IA), un vocabulaire plutôt connu et utilisé en anglais, afin de vous permettre de le réinvestir dans votre milieu.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: TELUQ (Québec)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Vidéos, quizz</p></li>
+<li><p>Durée: 16h</p></li>
+</ul>
+</div>
+<div class="section" id="le-cours-sur-l-ia">
+<h2><span class="section-number">1.10. </span>Le cours sur l’IA<a class="headerlink" href="#le-cours-sur-l-ia" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://doemee.ai-cursus.be/home?lang=fr">https://doemee.ai-cursus.be/home?lang=fr</a></p></li>
+</ul>
+<blockquote>
+<div><p>Un tutoriel gratuit en ligne sur les principes de l’Intelligence Artificielle.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Année: 2020</p></li>
+<li><p>Production: <a class="reference external" href="http://Tech-Cursus.NL">Tech-Cursus.NL</a>, Delhaize, RMMBR, Samsung (Belgique)</p></li>
+<li><p>Audience: Grand public</p></li>
+<li><p>Format: Principalement texte et quizz. Quelques vidéos.</p></li>
+<li><p>Durée: 4h</p></li>
+</ul>
+</div>
+<div class="section" id="en-anglais">
+<h2><span class="section-number">1.11. </span>En anglais<a class="headerlink" href="#en-anglais" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.coursera.org/learn/artificial-intelligence-education-for-teachers">https://www.coursera.org/learn/artificial-intelligence-education-for-teachers</a></p></li>
+<li><p><a class="reference external" href="https://lor.instructure.com/resources/15b73d48138e499787fb1ef8e50e5b07?shared">https://lor.instructure.com/resources/15b73d48138e499787fb1ef8e50e5b07?shared</a></p></li>
+<li><p>A venir: <a class="reference external" href="https://www.raspberrypi.org/computing-education-research-online-seminars/">https://www.raspberrypi.org/computing-education-research-online-seminars/</a></p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Contenu"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../AvantPropos.html" title="previous page">Aperçu</a>
+    <a class='right-next' id="next-link" href="FichesPedagogiques.html" title="next page"><span class="section-number">2. </span>Fiches pédagogiques</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By <a href="https://www.lascientotheque.be/">La Scientothèque</a>, 2021.<br/>
+        
+          <div class="extra_footer">
+            <p>
+License: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
