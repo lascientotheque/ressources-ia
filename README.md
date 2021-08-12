@@ -2,6 +2,11 @@
 
 Ce carnet vise à rassembler les ressources pédagogiques pertinentes pour aborder, comprendre, et discuter les technologies dites d'**intelligence artificielle** (IA). Le public visé est celui des enseignants ou animateurs pour les jeunes publics (de 4 à 18 ans). 
 
+## Accès au carnet
+
+Le carnet est accessible à https://lascientotheque.github.io/ressources-ia
+
+
 ## Structure
 
 1. **Cours**: Cette section recense les cours 'grand public' pour découvrir l'IA. Si vous n'êtes pas familier du sujet, le récent cours de [Class'Code L’Intelligence Artificielle… avec intelligence !](Cours_IA_FunMooc) est un point de départ recommandé. Le cours demande environ 10 heures pour être complété, et se compose de vidéos, démos interactives, et quizz, ainsi que de fiches pédagogiques utilisables en classe (à partir de 7 ans). Le ['collaboratoire' de recherche 'Premiers Cris'](Cours_Premiers_Cris) offre d'autre part une réflexion sur l'approche du numérique pour les moins de 7 ans. 
