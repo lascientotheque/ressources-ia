@@ -30,3 +30,4 @@ Ce site est collaboratif. Vous pouvez y ajouter toute ressource que vous pensez 
 * en contactant Yann-Aël Le Borgne à l'adresse yannael@lascientotheque.be. 
 
 Si vous trouvez ce contenu utile, merci de le partager sur les réseaux sociaux, ou d'ajouter une étoile au [dépôt Github](https://github.com/lascientotheque/ressources-ia) afin d'aider à la visibilité du site!
+
