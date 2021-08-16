@@ -31,7 +31,7 @@ Le logo de robot a été créé par <a href="https://pixabay.com/fr/users/bcogwe
 
 Ce site est collaboratif. Vous pouvez y ajouter toute ressource que vous pensez être utile ou faire part de vos remarques quant à la structure ou au contenu du site: 
 
-* en utilisant directement le [dépôt Github](https://github.com/lascientotheque/ressources-ia). Si vous ne connaissez pas Github, regardez [cette vidéo pour voir comment ouvrir une discussion ou modifier le contenu de ce site](https://www.youtube.com/).
+* en utilisant directement le [dépôt Github](https://github.com/lascientotheque/ressources-ia). Si vous ne connaissez pas Github, regardez [ce cours tutoriel pour ouvrir une discussion ou modifier le contenu de ce site](https://www.youtube.com/watch?v=tgy4lf_cGRg).
 * en contactant Yann-Aël Le Borgne à l'adresse yannael@lascientotheque.be. 
 
 Si vous trouvez ce contenu utile, merci de le partager sur les réseaux sociaux, ou d'ajouter une étoile au [dépôt Github](https://github.com/lascientotheque/ressources-ia) afin d'aider à la visibilité du site!
