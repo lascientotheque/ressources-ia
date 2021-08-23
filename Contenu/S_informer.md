@@ -176,3 +176,4 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://www.actua.ca/en/activities/
 * https://www.iste.org/areas-of-focus/AI-in-education
 * https://aiforteachers.org/
+* https://i2learning.org/
