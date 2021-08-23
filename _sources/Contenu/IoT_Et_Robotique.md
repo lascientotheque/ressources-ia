@@ -72,6 +72,11 @@ Exemples d'activités:
 * Blue-bot: https://www.commonsense.org/education/app/blue-bot
 * ozobot: https://ozobot.com/
 
+## Google AIY
+
+* Vision kit: https://aiyprojects.withgoogle.com/vision
+* Voice Kit: https://aiyprojects.withgoogle.com/voice
+
 ## Cours
 
 * https://www.roteco.ch/fr/cours/?language=fr

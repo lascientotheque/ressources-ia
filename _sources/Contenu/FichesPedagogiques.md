@@ -317,3 +317,15 @@ poursuivre leur apprentissage.
 * Mots-clefs: Connecté, scratch, reconnaissance de la parole, reconnaissance d'image, apprentissage automatique, reconnaissance des gestes
 * Exemples d'activités: https://ibm.ent.box.com/v/MachineLearningforKids/file/257961989354
 
+## EvoluKid
+
+* https://evolukid.com/
+
+> Notre ambition est de préparer les plus jeunes aux enjeux de demain et d’utiliser les nouvelles technologies pour développer des aptitudes comme l’esprit d’analyse, la créativité et la curiosité.
+ 
+* Licence: ?
+* Format: Fiches en lignes, cours
+* Public: 8 ans et plus
+* Mots-clefs: Connecté, scratch, python, Arduino, reconnaissance de texte, apprentissage automatique
+* Exemples d'activités: https://evolukid.com/blog/. Activités IA en cours de développement: http://ia.evolukid.com/
+	* Allumag d'une lampe avec du texte (Scratch+ML4Kids): https://evolukid.com/decouverte-de-la-plateforme-machine-learning-for-kids-pour-lapprentissage-de-lintelligence-artificielle/
