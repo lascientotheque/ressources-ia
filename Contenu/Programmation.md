@@ -117,7 +117,16 @@ Présentation des possibilités (en anglais): https://www.youtube.com/watch?v=h2
 * Mots-clefs: Programmation par blocs, algorithmes, dessin
 
 
+## MakeCode
 
+* https://www.microsoft.com/fr-fr/makecode/resources
+
+> Microsoft MakeCode est une plate-forme en open source gratuite qui permet de créer des expériences interactives d’apprentissage des sciences informatiques pour progresser dans l’univers de la programmation.
+
+* Licence: ?
+* Langue: Français et autre
+* Public: A partir de 6 ans
+* Mots-clefs: Programmation par blocs, Python, Javascript, algorithmes, Microbit, Minecraft
 
 ## En anglais
 
