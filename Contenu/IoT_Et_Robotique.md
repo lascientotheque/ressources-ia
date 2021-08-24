@@ -86,3 +86,4 @@ Exemples d'activités:
 
 * https://www.instructables.com/circuits/projects/
 * http://learn.makeblock.com/en/
+* https://csermoocs.adelaide.edu.au/lending-library#lesson-plan-and-project-exemplars
