@@ -10,7 +10,7 @@ Le carnet est accessible à https://lascientotheque.github.io/ressources-ia
 
 Ce carnet a été conçu par la [Scientothèque](https://www.lascientotheque.be/), en utilisant principalement comme base les ressources de la Scientothèque ainsi que les ressources suivantes (en juillet 2021):
 
-* Tableau de ressources ["Enseigner le machine learning" par Thierry Vieville](https://docs.google.com/spreadsheets/d/1xlI91FqGZ1XLltIcPe5_3IvASOVbSWKC5sdlGxrfWVk)
+* Tableau de ressources ["Enseigner le machine learning" par Martine Courbin-Coulaud](https://docs.google.com/spreadsheets/d/1xlI91FqGZ1XLltIcPe5_3IvASOVbSWKC5sdlGxrfWVk)
 * La [Communauté de l'Apprentissage de l'Informatique (CAI)](https://cai.community)
 * L'article [Un bref parcours sur les ressources pratiques et acteurs en IA et education](https://www.researchgate.net/publication/350638066_Un_bref_parcours_sur_les_ressources_pratiques_et_acteurs_en_IA_et_education_GTnum_Scol_ia)
 
