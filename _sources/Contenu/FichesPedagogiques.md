@@ -329,3 +329,12 @@ poursuivre leur apprentissage.
 * Mots-clefs: Connecté, scratch, python, Arduino, reconnaissance de texte, apprentissage automatique
 * Exemples d'activités: https://evolukid.com/blog/. Activités IA en cours de développement: http://ia.evolukid.com/
 	* Allumag d'une lampe avec du texte (Scratch+ML4Kids): https://evolukid.com/decouverte-de-la-plateforme-machine-learning-for-kids-pour-lapprentissage-de-lintelligence-artificielle/
+
+## En anglais
+
+* https://raise.mit.edu/resources.html
+* http://csunplugged.mines.edu/resources.html
+* https://csunplugged.org/en/
+* https://csfieldguide.org.nz/en/chapters/artificial-intelligence/whats-the-big-picture/
+* https://ai-4-all.org/open-learning/resources/
+* https://www.aiunplugged.org

@@ -103,3 +103,5 @@
 * https://experiments.withgoogle.com/collection/ai
 * https://magenta.tensorflow.org/demos
 * https://apps.apple.com/us/app/seeing-ai-talking-camera-for-the-blind/id999062298
+* https://csfieldguide.org.nz/en/interactives/
+* NIM: https://csfieldguide.org.nz/en/interactives/training-ground/
