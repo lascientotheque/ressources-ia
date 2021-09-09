@@ -67,7 +67,7 @@ Des activités plus larges autour de ce qu'est un ordinateur, la programmation, 
 
 > Je consacre une partie de mon temps de travail (et également une partie de mon temps de « repos ») à partager l’informatique avec un public diversifié : des écoliers, des collégiens/lycéens, des non scientifiques et des professeurs du secondaire. Si vous voulez plus d’informations, savoir d’où viennent la plupart de ces activités,  ou apprendre à les faire vous-mêmes, allez donc faire un tour sur https://members.loria.fr/MDuflot/files/med/index.html.
 
-* Licence: Creative Commons BY-SA-NC
+* Licence: Creative Commons BY-SA
 * Public: Maternelle, Primaire, secondaire, grand public
 * Mots-clefs: Débranché, Données / traitement de l'information,  Machines et composants
 * Exemples d'activités:
