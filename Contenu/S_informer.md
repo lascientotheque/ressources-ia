@@ -141,6 +141,7 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://ecraft2learn.github.io/ai/?translate=1&translate=1&translate=1
 * https://www.reseau-canope.fr/agence-des-usages/intelligence-artificielle.html#bandeauPtf
 
+
 ## Stages/Ateliers
 
 * https://www.magicmakers.fr/apprendre-coder-toute-l-annee http://ressources.magicmakers.fr/accueil-makers/
@@ -168,6 +169,32 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://www.reseau-canope.fr/fileadmin/user_upload/Projets/agence_des_usages/6855_BulletinVeille_5ia.pdf
 * https://www.lemonde.fr/education/article/2021/05/20/l-adaptive-learning-une-revolution-dans-l-enseignement_6080819_1473685.html
 
+## Cadres de références de compétences
+
+
+### Citoyens
+
+* Agoria DigiSkills Passport - https://www.agoria.be/fr/bethechange/digiskills/particuliers
+* DigComp 2.0 - https://evolutionnumerique.com/docs/digcomp_europass.pdf - https://ec.europa.eu/jrc/en/digcomp
+* DigComp 2.1 - https://publications.jrc.ec.europa.eu/repository/handle/JRC106281
+* DigComp 2.2 - https://ec.europa.eu/jrc/en/digcomp
+
+### Directeurs d'enseignement 
+
+* https://www.iste.org/standards/iste-standards-for-education-leaders
+
+### Educateurs
+
+* DigCompEdu : https://publications.jrc.ec.europa.eu/repository/handle/JRC107466
+* https://www.iste.org/standards/iste-standards-for-teachers
+
+
+### Elèves
+
+* CSTA K12 Standards - https://csteachers.org/page/about-csta-s-k-12-nbsp-standards - CC-SA-NC 4.0 - https://csteachers.org/page/standards/
+* https://k12cs.org/ - K12 Computer Science framework
+* https://www.iste.org/iste-standards - https://www.iste.org/standards/iste-standards-for-students
+
 ## Anglais
 
 * Projet AI4K12: https://github.com/touretzkyds/ai4k12/wiki
@@ -178,3 +205,4 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://aiforteachers.org/
 * https://i2learning.org/
 * https://raise.mit.edu/
+* 
