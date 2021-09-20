@@ -187,13 +187,14 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 
 * DigCompEdu : https://publications.jrc.ec.europa.eu/repository/handle/JRC107466
 * https://www.iste.org/standards/iste-standards-for-teachers
-
+* CSTA - Standards for CS Teachers, 2019. https://csteachers.org/page/standards-for-cs-teachers
 
 ### Elèves
 
-* CSTA K12 Standards - https://csteachers.org/page/about-csta-s-k-12-nbsp-standards - CC-SA-NC 4.0 - https://csteachers.org/page/standards/
-* https://k12cs.org/ - K12 Computer Science framework
-* https://www.iste.org/iste-standards - https://www.iste.org/standards/iste-standards-for-students
+* FMTTN: 2021. Fédération Wallonie-Bruxelles - RÉFÉRENTIEL DE FORMATION MANUELLE, TECHNIQUE, TECHNOLOGIQUE ET NUMÉRIQUE - https://www.ares-ac.be/images/FIE/Referentiels/Referentiel-FMTTN.pdf
+* CSTA K12 Standards: 2017. https://csteachers.org/page/about-csta-s-k-12-nbsp-standards - CC-SA-NC 4.0 - https://csteachers.org/page/standards/
+* https://k12cs.org/ - K12 Computer Science framework. Complete report: https://k12cs.org/wp-content/uploads/2016/09/K%E2%80%9312-Computer-Science-Framework.pdf
+* https://www.iste.org/iste-standards - https://www.iste.org/standards/iste-standards-for-students. https://www.iste.org/standards/downloads
 
 ## Anglais
 
@@ -201,8 +202,7 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://code.org/ai
 * http://www.exploringcs.org/for-teachers-districts/artificial-intelligence
 * https://www.actua.ca/en/activities/
-* https://www.iste.org/areas-of-focus/AI-in-education
+* **https://www.iste.org/areas-of-focus/AI-in-education**
 * https://aiforteachers.org/
 * https://i2learning.org/
 * https://raise.mit.edu/
-* 
