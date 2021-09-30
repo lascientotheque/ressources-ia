@@ -206,3 +206,4 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://aiforteachers.org/
 * https://i2learning.org/
 * https://raise.mit.edu/
+* https://cset.georgetown.edu/publication/ai-education-in-china-and-the-united-states/

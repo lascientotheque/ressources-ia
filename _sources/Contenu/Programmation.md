@@ -128,6 +128,7 @@ Présentation des possibilités (en anglais): https://www.youtube.com/watch?v=h2
 * Public: A partir de 6 ans
 * Mots-clefs: Programmation par blocs, Python, Javascript, algorithmes, Microbit, Minecraft
 
+
 ## En anglais
 
 ### P5JS
@@ -154,3 +155,11 @@ Permet de créer des applications smartphone en programmation par blocs.
 
 > Learn how to train your computer to recognise objects in images with our machine vision pathway.
 
+## CodeWeek
+
+* https://codeweek.eu/
+
+
+### Autres
+
+* https://trinket.io/: Lien entre langages de blocs et Python.
