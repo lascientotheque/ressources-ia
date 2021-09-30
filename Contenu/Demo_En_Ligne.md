@@ -70,6 +70,7 @@
 * https://pixees.fr/jouez-avec-les-neurones-de-la-machine/
 * https://github.com/amzn/computer-vision-basics-in-microsoft-excel -> Réseaux de neurones avec Excel
 * https://www.i-am.ai/neural-numbers.html
+* https://inginious.org/course/reseaux-neurones
 
 ## Optimisation
 
@@ -91,6 +92,7 @@
 ## Apprentissage machine
 
 * https://ml-playground.com/#: KNN, perceptron, SVM, arbre de décision, réseaux de neurones
+* https://loan181.github.io/: KNN, Arbres de décision, réseaux de neurones. https://dial.uclouvain.be/memoire/ucl/en/object/thesis%3A19484
 
 ## Encyclopédie
 
