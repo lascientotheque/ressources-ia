@@ -179,4 +179,6 @@ Liens complémentaires:
 * https://www.coursera.org/learn/artificial-intelligence-education-for-teachers
 * https://lor.instructure.com/resources/15b73d48138e499787fb1ef8e50e5b07?shared
 * A venir: https://www.raspberrypi.org/computing-education-research-online-seminars/
-* European Schoolnet - AI Basics for schools - https://www.europeanschoolnetacademy.eu/courses/course-v1:CodeWeek+AI+2021/about#about
+* European Schoolnet - AI Basics for schools - https://www.europeanschoolnetacademy.eu/courses/course-v1:CodeWeek+AI+2021/about#about - https://www.europeanschoolnetacademy.eu/ - https://codeweek.eu/view/391506/eu-code-week-online-bootcamp-mooc
+* https://www.futurelearn.com/courses/introduction-to-machine-learning/1/todo/122953
+* https://www.futurelearn.com/partners/raspberry-pi

@@ -56,7 +56,7 @@
 
 * Générateur de visage de chats: https://simoninithomas.github.io/CatDCGAN/
 
-
+* https://thisxdoesnotexist.com/
 	
 ## Predictions
 
@@ -71,6 +71,9 @@
 * https://github.com/amzn/computer-vision-basics-in-microsoft-excel -> Réseaux de neurones avec Excel
 * https://www.i-am.ai/neural-numbers.html
 * https://inginious.org/course/reseaux-neurones
+* https://aegeorge42.github.io/
+* https://www.cs.ryerson.ca/~aharley/vis/conv/ : Visualisation des couches d'un réseau de neurones pour la reconnaissances de chiffres. Voir https://www.cs.ryerson.ca/~aharley/vis/ pour une description plus détaillée. 
+
 
 ## Optimisation
 
@@ -93,6 +96,7 @@
 
 * https://ml-playground.com/#: KNN, perceptron, SVM, arbre de décision, réseaux de neurones
 * https://loan181.github.io/: KNN, Arbres de décision, réseaux de neurones. https://dial.uclouvain.be/memoire/ucl/en/object/thesis%3A19484
+* In English: https://playground.tensorflow.org, https://aegeorge42.github.io/
 
 ## Encyclopédie
 
