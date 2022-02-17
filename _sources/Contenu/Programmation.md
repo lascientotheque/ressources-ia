@@ -164,4 +164,4 @@ Permet de créer des applications smartphone en programmation par blocs.
 
 * https://trinket.io/: Lien entre langages de blocs et Python.
 * https://www.futurelearn.com/courses/programming-101/14/welcome#discussion
-* 
+* https://codeclubworld.org/

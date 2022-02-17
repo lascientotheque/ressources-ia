@@ -69,6 +69,7 @@
 ## Présentations
 
 * https://docs.google.com/presentation/d/1X-yZVMAriONIA1fAqb__8Z3G_5DbnJM2DCmQGUZePmQ/edit#slide=id.p3
+* https://view.genial.ly/61a51a4ff89eff0dbc69f204
 
 
 ## Articles divers
@@ -195,6 +196,8 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * CSTA K12 Standards: 2017. https://csteachers.org/page/about-csta-s-k-12-nbsp-standards - CC-SA-NC 4.0 - https://csteachers.org/page/standards/
 * https://k12cs.org/ - K12 Computer Science framework. Complete report: https://k12cs.org/wp-content/uploads/2016/09/K%E2%80%9312-Computer-Science-Framework.pdf
 * https://www.iste.org/iste-standards - https://www.iste.org/standards/iste-standards-for-students. https://www.iste.org/standards/downloads
+* Québec: http://www.education.gouv.qc.ca/dossiers-thematiques/plan-daction-numerique/cadre-de-reference-de-la-competence-numerique/
+* France NSI: http://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf
 
 ## Anglais
 

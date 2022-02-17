@@ -113,3 +113,4 @@
 * NIM: https://csfieldguide.org.nz/en/interactives/training-ground/
 * https://pair.withgoogle.com/tools/
 * https://www.areyouyou.eu/, https://www.hownormalami.eu/
+* https://www.machinelearningbasic.com/
