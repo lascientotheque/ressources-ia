@@ -338,3 +338,4 @@ poursuivre leur apprentissage.
 * https://csfieldguide.org.nz/en/chapters/artificial-intelligence/whats-the-big-picture/
 * https://ai-4-all.org/open-learning/resources/
 * https://www.aiunplugged.org
+* https://www.helloruby.com/
