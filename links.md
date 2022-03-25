@@ -1,11 +1,7 @@
-### 1) Answer Garden
-
-* https://answergarden.ch/2391454
-
-### 2) Quickdraw
+### 1) Quickdraw
 
 * https://quickdraw.withgoogle.com/?locale=fr
 
-### 3) Classification d'images
+### 2) Classification d'images
 
 * https://pixees.fr/classcodeiai/app/tuto1
