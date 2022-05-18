@@ -2,7 +2,7 @@
 
 Ce carnet vise à rassembler les ressources pédagogiques pertinentes pour aborder, comprendre, et discuter les technologies dites d'**intelligence artificielle** (IA). Le public visé est celui des enseignant.e.s ou animatrices.teurs pour les jeunes publics (de 4 à 18 ans). 
 
-**Note: Une version dotée d'un outil de filtrage des ressources est maintenant disponible ici**: [https://lascientotheque.shinyapps.io/ai-resources]().
+**Note: Une version dotée d'un outil de filtrage des ressources est maintenant disponible ici**: [https://lascientotheque.shinyapps.io/ai-resources](https://lascientotheque.shinyapps.io/ai-resources).
 
 ## Structure
 
