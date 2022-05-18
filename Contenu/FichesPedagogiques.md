@@ -339,3 +339,4 @@ poursuivre leur apprentissage.
 * https://ai-4-all.org/open-learning/resources/
 * https://www.aiunplugged.org
 * https://www.helloruby.com/
+* https://workshop4me.org/
