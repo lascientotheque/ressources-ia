@@ -23,6 +23,7 @@
 ### Europe
 
 * [AI4T](https://www.france-education-international.fr/expertises/cooperation-education/projets/ai4t-artificial-intelligence-and-teachers)
+* [FAIaS](https://fosteringai.github.io/)
 
 ### Canada
 
@@ -34,7 +35,9 @@
 * [UNICEF](https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children)
 * [Alan Turing Institute](https://www.turing.ac.uk/research/interest-groups/data-science-education)
 
+## Conférences
 
+* Open Education Global Conference: https://conference.oeglobal.org/2021/
 
 ## Stratégies de développement autour de l'IA
 
@@ -142,6 +145,9 @@ Voir aussi la base d'articles rassemblés par https://jeudebat.com/jeux/lintelli
 * https://ecraft2learn.github.io/ai/?translate=1&translate=1&translate=1
 * https://www.reseau-canope.fr/agence-des-usages/intelligence-artificielle.html#bandeauPtf
 
+### REL
+
+* https://www.lemonde.fr/blog/binaire/2022/03/18/les-ressources-educatives-libres/
 
 ## Stages/Ateliers
 

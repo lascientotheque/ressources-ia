@@ -45,12 +45,11 @@
     <script src="../_static/gtag_1.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../_static/Robot.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -252,87 +251,97 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conferences">
+   6.2. Conférences
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#strategies-de-developpement-autour-de-l-ia">
-   6.2. Stratégies de développement autour de l’IA
+   6.3. Stratégies de développement autour de l’IA
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#magazines-blogs">
-   6.3. Magazines/Blogs
+   6.4. Magazines/Blogs
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#livres">
-   6.4. Livres
+   6.5. Livres
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#presentations">
-   6.5. Présentations
+   6.6. Présentations
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#articles-divers">
-   6.6. Articles divers
+   6.7. Articles divers
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#retour-d-experience">
-     6.6.1. Retour d’expérience
+     6.7.1. Retour d’expérience
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#pensees-critiques">
-     6.6.2. Pensées critiques
+     6.7.2. Pensées critiques
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#pedagogie">
-     6.6.3. Pédagogie
+     6.7.3. Pédagogie
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rel">
+     6.7.4. REL
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#stages-ateliers">
-   6.7. Stages/Ateliers
+   6.8. Stages/Ateliers
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#ia-pour-l-enseignement">
-   6.8. IA pour l’enseignement
+   6.9. IA pour l’enseignement
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#cadres-de-references-de-competences">
-   6.9. Cadres de références de compétences
+   6.10. Cadres de références de compétences
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#citoyens">
-     6.9.1. Citoyens
+     6.10.1. Citoyens
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#directeurs-d-enseignement">
-     6.9.2. Directeurs d’enseignement
+     6.10.2. Directeurs d’enseignement
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#educateurs">
-     6.9.3. Educateurs
+     6.10.3. Educateurs
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#eleves">
-     6.9.4. Elèves
+     6.10.4. Elèves
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#anglais">
-   6.10. Anglais
+   6.11. Anglais
   </a>
  </li>
 </ul>
@@ -376,6 +385,7 @@
 <h3><span class="section-number">6.1.3. </span>Europe<a class="headerlink" href="#europe" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.france-education-international.fr/expertises/cooperation-education/projets/ai4t-artificial-intelligence-and-teachers">AI4T</a></p></li>
+<li><p><a class="reference external" href="https://fosteringai.github.io/">FAIaS</a></p></li>
 </ul>
 </div>
 <div class="section" id="canada">
@@ -393,8 +403,14 @@
 </ul>
 </div>
 </div>
+<div class="section" id="conferences">
+<h2><span class="section-number">6.2. </span>Conférences<a class="headerlink" href="#conferences" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Open Education Global Conference: <a class="reference external" href="https://conference.oeglobal.org/2021/">https://conference.oeglobal.org/2021/</a></p></li>
+</ul>
+</div>
 <div class="section" id="strategies-de-developpement-autour-de-l-ia">
-<h2><span class="section-number">6.2. </span>Stratégies de développement autour de l’IA<a class="headerlink" href="#strategies-de-developpement-autour-de-l-ia" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.3. </span>Stratégies de développement autour de l’IA<a class="headerlink" href="#strategies-de-developpement-autour-de-l-ia" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>France Digitale. IA et data 25 propositions pour une stratégie eurpéenne. <a class="reference external" href="https://tilkee.view-docs.com/v/56a1696dd8s">https://tilkee.view-docs.com/v/56a1696dd8s</a></p></li>
 <li><p><a class="reference external" href="https://www.cse.gouv.qc.ca/publications/intelligence-artificielle-en-education-50-2113/">https://www.cse.gouv.qc.ca/publications/intelligence-artificielle-en-education-50-2113/</a></p></li>
@@ -406,7 +422,7 @@
 </ul>
 </div>
 <div class="section" id="magazines-blogs">
-<h2><span class="section-number">6.3. </span>Magazines/Blogs<a class="headerlink" href="#magazines-blogs" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.4. </span>Magazines/Blogs<a class="headerlink" href="#magazines-blogs" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.actuia.com/acteur/institut-europia/">https://www.actuia.com/acteur/institut-europia/</a></p></li>
 <li><p><a class="reference external" href="https://edunumrech.hypotheses.org/">https://edunumrech.hypotheses.org/</a></p></li>
@@ -420,7 +436,7 @@
 </ul>
 </div>
 <div class="section" id="livres">
-<h2><span class="section-number">6.4. </span>Livres<a class="headerlink" href="#livres" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.5. </span>Livres<a class="headerlink" href="#livres" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://interstices.info/intelligence-artificielle-intelligence-humaine/">https://interstices.info/intelligence-artificielle-intelligence-humaine/</a></p></li>
 <li><p><a class="reference external" href="https://www.oezratty.net/wordpress/2017/usages-intelligence-artificielle-ebook/">https://www.oezratty.net/wordpress/2017/usages-intelligence-artificielle-ebook/</a></p></li>
@@ -430,16 +446,16 @@
 </ul>
 </div>
 <div class="section" id="presentations">
-<h2><span class="section-number">6.5. </span>Présentations<a class="headerlink" href="#presentations" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.6. </span>Présentations<a class="headerlink" href="#presentations" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.google.com/presentation/d/1X-yZVMAriONIA1fAqb__8Z3G_5DbnJM2DCmQGUZePmQ/edit#slide=id.p3">https://docs.google.com/presentation/d/1X-yZVMAriONIA1fAqb__8Z3G_5DbnJM2DCmQGUZePmQ/edit#slide=id.p3</a></p></li>
 <li><p><a class="reference external" href="https://view.genial.ly/61a51a4ff89eff0dbc69f204">https://view.genial.ly/61a51a4ff89eff0dbc69f204</a></p></li>
 </ul>
 </div>
 <div class="section" id="articles-divers">
-<h2><span class="section-number">6.6. </span>Articles divers<a class="headerlink" href="#articles-divers" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.7. </span>Articles divers<a class="headerlink" href="#articles-divers" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="retour-d-experience">
-<h3><span class="section-number">6.6.1. </span>Retour d’expérience<a class="headerlink" href="#retour-d-experience" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.7.1. </span>Retour d’expérience<a class="headerlink" href="#retour-d-experience" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Quand des élèves de 4e décident du futur de l’IA: <a class="reference external" href="https://usbeketrica.com/fr/article/college-intelligence-artificielle-projet">https://usbeketrica.com/fr/article/college-intelligence-artificielle-projet</a></p></li>
 <li><p>Des collégiens imaginent l’intelligence artificielle du futur: <a class="reference external" href="https://usbeketrica.com/fr/article/intelligence-artificielle-futur-collegiens">https://usbeketrica.com/fr/article/intelligence-artificielle-futur-collegiens</a></p></li>
@@ -454,7 +470,7 @@
 </ul>
 </div>
 <div class="section" id="pensees-critiques">
-<h3><span class="section-number">6.6.2. </span>Pensées critiques<a class="headerlink" href="#pensees-critiques" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.7.2. </span>Pensées critiques<a class="headerlink" href="#pensees-critiques" title="Permalink to this headline">¶</a></h3>
 <p>Base d’articles pour définir l’IA, alimenter des débats.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.researchgate.net/publication/325810912_Developper_la_pensee_informatique_pour_demystifier_l%27intelligence_artificielle">https://www.researchgate.net/publication/325810912_Developper_la_pensee_informatique_pour_demystifier_l’intelligence_artificielle</a></p></li>
@@ -498,7 +514,7 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 <p>Voir aussi la base d’articles rassemblés par <a class="reference external" href="https://jeudebat.com/jeux/lintelligence-artificielle/">https://jeudebat.com/jeux/lintelligence-artificielle/</a> (section “Ressources du jeu”).</p>
 </div>
 <div class="section" id="pedagogie">
-<h3><span class="section-number">6.6.3. </span>Pédagogie<a class="headerlink" href="#pedagogie" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.7.3. </span>Pédagogie<a class="headerlink" href="#pedagogie" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Le Guide canadien de la pensée computationnelle - Une introduction à la littératie algorithmique par Kids Code Jeunesse <a class="reference external" href="https://algorithmliteracy.org/data/resources/fr/KCJ_Guide_pensee_computationnelle_FR.pdf">https://algorithmliteracy.org/data/resources/fr/KCJ_Guide_pensee_computationnelle_FR.pdf</a> . Un guide bien fourni sur pourquoi et comment apprendre à programmer pour les jeunes, et comment l’enseigner.</p></li>
 <li><p>Apprentissage automatique - Motivations - Machine learning for kids <a class="reference external" href="https://docs.google.com/document/d/e/2PACX-1vTdjsEzD48UhRfAHO75YyQPr8wXs2Htyc9IrzbKUGF7ZsOPGNhPaLFV1dBTfd_YtMvkhUe-_y69hX2H/pub">https://docs.google.com/document/d/e/2PACX-1vTdjsEzD48UhRfAHO75YyQPr8wXs2Htyc9IrzbKUGF7ZsOPGNhPaLFV1dBTfd_YtMvkhUe-_y69hX2H/pub</a></p></li>
@@ -509,9 +525,15 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 <li><p><a class="reference external" href="https://www.reseau-canope.fr/agence-des-usages/intelligence-artificielle.html#bandeauPtf">https://www.reseau-canope.fr/agence-des-usages/intelligence-artificielle.html#bandeauPtf</a></p></li>
 </ul>
 </div>
+<div class="section" id="rel">
+<h3><span class="section-number">6.7.4. </span>REL<a class="headerlink" href="#rel" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lemonde.fr/blog/binaire/2022/03/18/les-ressources-educatives-libres/">https://www.lemonde.fr/blog/binaire/2022/03/18/les-ressources-educatives-libres/</a></p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="stages-ateliers">
-<h2><span class="section-number">6.7. </span>Stages/Ateliers<a class="headerlink" href="#stages-ateliers" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.8. </span>Stages/Ateliers<a class="headerlink" href="#stages-ateliers" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.magicmakers.fr/apprendre-coder-toute-l-annee">https://www.magicmakers.fr/apprendre-coder-toute-l-annee</a> <a class="reference external" href="http://ressources.magicmakers.fr/accueil-makers/">http://ressources.magicmakers.fr/accueil-makers/</a></p></li>
 <li><p><a class="reference external" href="https://www.lacompagnieducode.org/">https://www.lacompagnieducode.org/</a></p></li>
@@ -524,7 +546,7 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 </ul>
 </div>
 <div class="section" id="ia-pour-l-enseignement">
-<h2><span class="section-number">6.8. </span>IA pour l’enseignement<a class="headerlink" href="#ia-pour-l-enseignement" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.9. </span>IA pour l’enseignement<a class="headerlink" href="#ia-pour-l-enseignement" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.thetechedvocate.org/5-examples-artificial-intelligence-classroom/">https://www.thetechedvocate.org/5-examples-artificial-intelligence-classroom/</a></p></li>
 <li><p><a class="reference external" href="https://www.facebook.com/rencontres.delorme/videos/755974168086484/">https://www.facebook.com/rencontres.delorme/videos/755974168086484/</a></p></li>
@@ -542,9 +564,9 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 </ul>
 </div>
 <div class="section" id="cadres-de-references-de-competences">
-<h2><span class="section-number">6.9. </span>Cadres de références de compétences<a class="headerlink" href="#cadres-de-references-de-competences" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.10. </span>Cadres de références de compétences<a class="headerlink" href="#cadres-de-references-de-competences" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="citoyens">
-<h3><span class="section-number">6.9.1. </span>Citoyens<a class="headerlink" href="#citoyens" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.10.1. </span>Citoyens<a class="headerlink" href="#citoyens" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Agoria DigiSkills Passport - <a class="reference external" href="https://www.agoria.be/fr/bethechange/digiskills/particuliers">https://www.agoria.be/fr/bethechange/digiskills/particuliers</a></p></li>
 <li><p>DigComp 2.0 - <a class="reference external" href="https://evolutionnumerique.com/docs/digcomp_europass.pdf">https://evolutionnumerique.com/docs/digcomp_europass.pdf</a> - <a class="reference external" href="https://ec.europa.eu/jrc/en/digcomp">https://ec.europa.eu/jrc/en/digcomp</a></p></li>
@@ -553,13 +575,13 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 </ul>
 </div>
 <div class="section" id="directeurs-d-enseignement">
-<h3><span class="section-number">6.9.2. </span>Directeurs d’enseignement<a class="headerlink" href="#directeurs-d-enseignement" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.10.2. </span>Directeurs d’enseignement<a class="headerlink" href="#directeurs-d-enseignement" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.iste.org/standards/iste-standards-for-education-leaders">https://www.iste.org/standards/iste-standards-for-education-leaders</a></p></li>
 </ul>
 </div>
 <div class="section" id="educateurs">
-<h3><span class="section-number">6.9.3. </span>Educateurs<a class="headerlink" href="#educateurs" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.10.3. </span>Educateurs<a class="headerlink" href="#educateurs" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>DigCompEdu : <a class="reference external" href="https://publications.jrc.ec.europa.eu/repository/handle/JRC107466">https://publications.jrc.ec.europa.eu/repository/handle/JRC107466</a></p></li>
 <li><p><a class="reference external" href="https://www.iste.org/standards/iste-standards-for-teachers">https://www.iste.org/standards/iste-standards-for-teachers</a></p></li>
@@ -567,7 +589,7 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 </ul>
 </div>
 <div class="section" id="eleves">
-<h3><span class="section-number">6.9.4. </span>Elèves<a class="headerlink" href="#eleves" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.10.4. </span>Elèves<a class="headerlink" href="#eleves" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>FMTTN: 2021. Fédération Wallonie-Bruxelles - RÉFÉRENTIEL DE FORMATION MANUELLE, TECHNIQUE, TECHNOLOGIQUE ET NUMÉRIQUE - <a class="reference external" href="https://www.ares-ac.be/images/FIE/Referentiels/Referentiel-FMTTN.pdf">https://www.ares-ac.be/images/FIE/Referentiels/Referentiel-FMTTN.pdf</a></p></li>
 <li><p>CSTA K12 Standards: 2017. <a class="reference external" href="https://csteachers.org/page/about-csta-s-k-12-nbsp-standards">https://csteachers.org/page/about-csta-s-k-12-nbsp-standards</a> - CC-SA-NC 4.0 - <a class="reference external" href="https://csteachers.org/page/standards/">https://csteachers.org/page/standards/</a></p></li>
@@ -579,7 +601,7 @@ FAUT-IL CRAINDRE L’INTELLIGENCE ARTIFICIELLE? <a class="reference external" hr
 </div>
 </div>
 <div class="section" id="anglais">
-<h2><span class="section-number">6.10. </span>Anglais<a class="headerlink" href="#anglais" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.11. </span>Anglais<a class="headerlink" href="#anglais" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Projet AI4K12: <a class="reference external" href="https://github.com/touretzkyds/ai4k12/wiki">https://github.com/touretzkyds/ai4k12/wiki</a></p></li>
 <li><p><a class="reference external" href="https://code.org/ai">https://code.org/ai</a></p></li>
