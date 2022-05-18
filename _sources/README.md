@@ -4,7 +4,9 @@ Ce carnet vise à rassembler les ressources pédagogiques pertinentes pour abord
 
 ## Accès au carnet
 
-Le carnet est accessible à https://lascientotheque.github.io/ressources-ia. **Note: Une version dotée d'un outil de filtrage des ressources est maintenant disponible ici: [https://lascientotheque.shinyapps.io/ai-resources]()**.
+Le carnet est accessible à https://lascientotheque.github.io/ressources-ia. 
+
+**Note: Une version dotée d'un outil de filtrage des ressources est maintenant disponible ici**: [https://lascientotheque.shinyapps.io/ai-resources]().
 
 ## À propos
 
